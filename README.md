@@ -6,22 +6,19 @@ Docker and npm
 To prepare your computer to run the server:
 * clone the repository:
 ```
-cd eit_web_app
-```
-* build the docker image:
-```
-docker build . -t eit-web-app
+cd eit_web_app/production
 ```
 * setup express framework for the server:
-```
-cd production
-```
 ```
 npm i express
 ```
 verify that /node_modules and package-lock.json were created
 ```
 cd ..
+```
+* build the docker image:
+```
+docker build . -t eit-web-app
 ```
 
 ## Running web app locally
